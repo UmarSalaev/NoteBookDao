@@ -15,7 +15,7 @@ import edu.examples.java_classes.dao.NoteBookDao;
 import edu.examples.java_classes.entity.Note;
 
 public class FileNoteBookDao implements NoteBookDao {
-	private static String path = ("C:\\Users\\umar228\\Desktop\\text.txt");
+	private static String path = ("file.txt");
 	private static FileWriter writer;
 
 	@Override
